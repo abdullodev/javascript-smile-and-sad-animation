@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(2, 14, 41);
+}
+.box {
+  position: absolute;
+  top: 150px;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+}
+.icons {
+  width: 200px;
+  height: 150px;
+  margin-top: -50px;
+}
+.icons .far {
+  font-size: 10rem;
+  color: #00b3b3;
+}
+.icons #happy,
+#sad {
+  display: none;
+}
+#btn1 {
+  padding: 10px 20px;
+  background-color: white;
+  color: #000033;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  transition: all 0.3s;
+}
+#btn2 {
+  padding: 10px 20px;
+  background-color: white;
+  color: #000033;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  transition: all 0.3s;
+}
+#btn1:hover {
+  background-color: #000033;
+  color: white;
+}
+#btn2:hover {
+  background-color: #000033;
+  color: white;
+}

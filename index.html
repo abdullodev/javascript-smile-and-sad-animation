@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript practise</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-3 d-flex justify-content-center align-items-center">
+                <div class="box d-flex justify-content-center align-items-center">
+
+                    <div class=" icons d-flex justify-content-center align-items-center">
+                        <i class="far fa-smile" id="smile"></i>
+                        <i class="far fa-grin" id="happy"></i>
+                        <i class="far fa-frown" id="sad"></i>
+                    </div>
+
+                    <div class="buttons mt-5">
+                        <button type="button" onmouseover="happy()" onmouseout="smile()" id="btn1">Smile</button>
+                        <button type="button" onmouseover="sad()" onmouseout="smile()" id="btn2">Sad</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
